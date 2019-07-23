@@ -14,24 +14,24 @@ Why go through all this extra trouble?
 The 3 relationships to consider:
 1. Mutually Exclusive
     - the two conditions cannot be true at the same time:
-		ie - are you dead? are you alive? have you ever existed?
+    ie - are you dead? are you alive? have you ever existed?
 2. Logical Dependancy
     - the two conditions are related.  knowledge about one condition will effect your decision concerning the other condition:
-		ie -  did it rain? is the ground wet?
+    ie -  did it rain? is the ground wet?
 3. Locigally Independant
-	- the two conditions are unrelated.  knowledge of one condition provides no information on the other condition:
-		ie - you woke up on time for class.  i am dead.
+  - the two conditions are unrelated.  knowledge of one condition provides no information on the other condition:
+    ie - you woke up on time for class.  i am dead.
 
 Each classification calls for a differently structured conditional check:
 
 1. Mutally Exclusive  -  'if'/'else'/'else if' information:
 ```js
 if (it_is_a_ball) {
-	roll_it;
+  roll_it;
 } else if (it_is_a_cube) {
-	stack_it;
+  stack_it;
 } else {
-	learn_more_shapes;
+  learn_more_shapes;
 };
 ```
 
@@ -40,13 +40,13 @@ if (it_is_a_ball) {
 2. Logically Dependant  -  nested if statements:
 ```js
 if (you_are_hungry) {
-	if (you_can_cook) {
-		make_food;
-	} else {
-		buy_food;
-	};
+  if (you_can_cook) {
+    make_food;
+  } else {
+    buy_food;
+  };
 } else {
-	dont_eat;
+  dont_eat;
 };
 ```
 
@@ -55,23 +55,23 @@ if (you_are_hungry) {
 3. Logically Independant  -  sequential if statements
 ```js
 if (you_are_hungry) {
-	if (you_can_cook) {
-		make_food;
-	} else {
-		buy_food;
-	};
+  if (you_can_cook) {
+    make_food;
+  } else {
+    buy_food;
+  };
 } else {
-	dont_eat;
+  dont_eat;
 };
 if (it_is_a_ball) {
-	roll_it;
+  roll_it;
 } else if (it_is_a_cube) {
-	stack_it;
+  stack_it;
 } else {
-	learn_more_shapes;
+  learn_more_shapes;
 };
 ```  
-	  
+    
 ___  
 ### Resources  
   
