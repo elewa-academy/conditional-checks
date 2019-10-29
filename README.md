@@ -19,7 +19,7 @@ The 3 relationships to consider:
     - the two conditions are related.  knowledge about one condition will effect your decision concerning the other condition:
     ie -  did it rain? is the ground wet?
 3. Locigally Independant
-  - the two conditions are unrelated.  knowledge of one condition provides no information on the other condition:
+    - the two conditions are unrelated.  knowledge of one condition provides no information on the other condition:
     ie - you woke up on time for class.  i am dead.
 
 Each classification calls for a differently structured conditional check:
