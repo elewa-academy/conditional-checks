@@ -75,7 +75,7 @@ if (it_is_a_ball) {
 ___  
 ### Resources  
   
-https://revelry.co/coding-without-if-statements/  
+counterpoint: https://revelry.co/coding-without-if-statements/  
 
 
 ___
